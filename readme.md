@@ -16,37 +16,23 @@ jocross.js 是微信小游戏上的一个交叉营销组件.
 ```javascript
 import jocross from "jocross/jocross.js"
 ```
+#### 第二步，在需要展示的位置初始化
+```javascript
+function btnClick {
+        if (window.rootCross && window.rootCross.isShow) {
+          return
+        }
+        if (window.rootCross){
+          window.rootCross.show()
+        }else{
 
-```html
-<script>
-        var ps=new SPP.ParticleSystem();
-        var particle=ps.createParticle(SPP.Particle);
-        particle.life=3;
-        particle.position.x=50;
-        particle.position.y=60;
-        particle.addForce("someForceName",someForce);
-        particle.onUpdate=someUpdateHander;
-        //particle.addEventListener("dead",deadHandler);
-        particle.on("dead",deadHandler);
-        animate();
-        ps.start();
-        
-        function someUpdateHander()
-        {
-                ...
-        };
-        function deadHandler(event)
-        {
-                ...
-        };
-        
-        function animate()
-        {
-               requestAnimationFrame(animate);
-               ps.render();
-               ...
-        } 
-<script>
+            window.rootCross = new jocross({
+              appid: 'wxb7f5996370aff609',
+              host:'wxnodes.cn',
+              forceDiy: window.getLoadedApiData('api_getSystemInfo').ifForceCrossDiy
+            })
+        }
+      }
 ```
 ### Examples
 * [gettingStarted](http://flashhawk.github.com/spp.js/examples/gettingStarted/)
