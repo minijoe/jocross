@@ -20,7 +20,7 @@ jocross.js 是微信小游戏上的一个交叉营销组件，找作者收录小
 * 小游戏logo
 * 小游戏简介，9字以内
 * 小游戏appid
-* 小游戏的小程序码或者带小程序的海报图片，用以没法直接跳转时展示
+* 小游戏的小程序码或者带小程序的海报图片（用以没法直接跳转时展示）
 #### 第2步，检出本github，并把jocross文件夹放在微信小游戏项目的根目录，在相关的js文件中页头引入jocross.js
 ```javascript
 import jocross from "jocross/jocross.js"
@@ -55,6 +55,8 @@ var myCross = new jocross({
 ![jocross.js gcode](https://github.com/minijoe/jocross/blob/master/qrcode.jpg)
 
 或联系 23456325@qq.com
+### 注
+想要直接跳转，需私下联系对方小游戏开发者，并一起绑定同一个公众号
 
 ### License
 This content is released under the (http://opensource.org/licenses/MIT) MIT License.
