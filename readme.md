@@ -40,7 +40,7 @@ window.rootCross = new jocross({
 * close, 关闭
 
 ### 真实案例
-* ![jocross.js code](https://github.com/minijoe/jocross/blob/master/code.jpg)
+![jocross.js code](https://github.com/minijoe/jocross/blob/master/code.jpg)
 
 
 ### 支持或联系
