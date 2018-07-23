@@ -28,7 +28,7 @@ import jocross from "jocross/jocross.js"
 #### 第3步，在需要展示的位置初始化代码
 ```javascript
 var myCross = new jocross({
-   appid: 'wxb7f5996370aff609',
+   appid: 'xxxxx',
    host:'wxnodes.cn',
    forceDiy: true
 })
