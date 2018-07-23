@@ -3,10 +3,10 @@
 ### 欢迎使用 jocross.js
 jocross.js 是微信小游戏上的一个交叉营销组件，接入后，将可展示相关游戏（其他游戏能展示自己游戏的链接）
 ![jocross.js sample](https://github.com/minijoe/jocross/blob/master/sample.jpg)
-真实案例
-![jocross.js code](https://github.com/minijoe/jocross/blob/master/code.jpg =200x)
 
-### Feature
+
+
+### 功能
 
 * 跨引擎,项目中引用,简单代码实现
 * 利用wx.createUserInfoButton实现所有元素展示
@@ -21,58 +21,33 @@ import jocross from "jocross/jocross.js"
 ```
 #### 第二步，在需要展示的位置初始化
 ```javascript
-function btnClick {
-        if (window.rootCross && window.rootCross.isShow) {
-          return
-        }
-        if (window.rootCross){
-          window.rootCross.show()
-        }else{
-
-            window.rootCross = new jocross({
-              appid: 'wxb7f5996370aff609',
-              host:'wxnodes.cn',
-              forceDiy: window.getLoadedApiData('api_getSystemInfo').ifForceCrossDiy
-            })
-        }
-      }
-```
-### Examples
-* [gettingStarted](http://flashhawk.github.com/spp.js/examples/gettingStarted/)
-* [spriteImage](http://flashhawk.github.com/spp.js/examples/spriteImage/)
-* [spp for easelJS](http://flashhawk.github.com/spp.js/examples/easelJS/)
-* [spp for pixi.js](http://flashhawk.github.com/spp.js/examples/pixi/)
-* [attraction](http://flashhawk.github.com/spp.js/examples/attraction/)
-* [repulsion](http://flashhawk.github.com/spp.js/examples/repulsion/)
-
-### Game
-* [fruitNinja](http://flashhawk.github.com/spp.js/examples/fruitNinja/)
-* [斩立觉](https://itunes.apple.com/cn/app/zhan-li-jue/id636378939?ls=1&mt=8)
-
-### Case
-* [蒙牛纯甄-立冬篇](http://flashhawk.github.io/spp.js/case/chunzhen_winter.png)
-
-### Docs
-* [Comming soon!](#)
-
-### Tutorials
-* [Comming soon!](#)
-
-### How to build ###
-
-Spp.js is build with ant and [closure-compiler](https://code.google.com/p/closure-compiler/wiki/BuildingWithAnt)
-
-```
-$>cd spp's root directory
-```
-Then build:
-
-```
-$> ant
+window.rootCross = new jocross({
+   appid: 'wxb7f5996370aff609',
+   host:'wxnodes.cn',
+   forceDiy: true
+})
 ```
 
-### Support or Contact
-Weibo: http://weibo.com/flashawk? or contact flashhawkmx@gmail.com and we’ll help you sort it out.
+### API或文档
+#### 参数
+* appid, 必须，小游戏的appid
+* host，必须，远程数据接口所在域名，需要再微信mp.weixin.qq.com登陆并配置服务器域名，请暂时使用wxnodes.cn
+* forceDiy，默认false，是否强制使用自定义样式模式，默认小游戏未授权获取用户资料权限时，jocross会调用系统wx.showActionSheet菜单模式，但授权后会以自定义样式模式显示；如果指定为true，那么不管怎样，都会使用自定义样式模式
+#### 属性
+* isShow，当前是否显示
+#### 方法
+* show，显示
+* close, 关闭
+
+### 真实案例
+* ![jocross.js code](https://github.com/minijoe/jocross/blob/master/code.jpg)
+
+
+### 支持或联系
+关注
+![jocross.js code](https://github.com/minijoe/jocross/blob/master/gcode.jpg)
+
+或联系 23456325@qq.com
 
 ### License
 This content is released under the (http://opensource.org/licenses/MIT) MIT License.
