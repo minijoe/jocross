@@ -1,7 +1,7 @@
 ![jocross.js logo](https://github.com/minijoe/jocross/blob/master/logo.png)
 ======
 ### 欢迎使用 jocross.js
-jocross.js 是微信小游戏上的一个交叉营销组件，找作者收录小游戏后，接入代码即可展示相关游戏入口（其他游戏能展示自己游戏入口），最多展示三个，目前展示逻辑为随机展示，未来会根据贡献加以权重。
+jocross.js 是微信小游戏上的一个交叉营销组件，找作者收录小游戏后，接入代码即可展示相关游戏入口（其他游戏能展示自己游戏入口），目前展示逻辑为随机展示三个入口，未来会根据贡献调整展现几率。
 ![jocross.js sample](https://github.com/minijoe/jocross/blob/master/sample.jpg)
 
 
