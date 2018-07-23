@@ -1,7 +1,10 @@
 ![jocross.js logo](https://github.com/minijoe/jocross/blob/master/logo.png)
 ======
 ### 欢迎使用 jocross.js
-jocross.js 是微信小游戏上的一个交叉营销组件.
+jocross.js 是微信小游戏上的一个交叉营销组件，接入后，将可展示相关游戏（其他游戏能展示自己游戏的链接）
+![jocross.js sample](https://github.com/minijoe/jocross/blob/master/sample.jpg)
+真实案例
+![jocross.js code](https://github.com/minijoe/jocross/blob/master/code.jpg)
 
 ### Feature
 
