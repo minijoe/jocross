@@ -45,7 +45,7 @@ window.rootCross = new jocross({
 
 ### 支持或联系
 关注
-![jocross.js gcode](https://github.com/minijoe/jocross/blob/master/gcode.jpg)
+![jocross.js gcode](https://github.com/minijoe/jocross/blob/master/qrcode.jpg)
 
 或联系 23456325@qq.com
 
