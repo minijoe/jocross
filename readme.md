@@ -1,4 +1,4 @@
-![spp.js logo](https://raw.github.com/flashhawk/spp.js/dev/logo.png)
+![jocross.js logo](https://github.com/minijoe/jocross/blob/master/logo.png)
 ======
 ### 欢迎使用 jocross.js
 jocross.js 是微信小游戏上的一个交叉营销组件.
