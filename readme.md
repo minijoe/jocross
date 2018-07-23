@@ -1,16 +1,16 @@
 ![jocross.js logo](https://github.com/minijoe/jocross/blob/master/logo.png)
 ======
 ### 欢迎使用 jocross.js
-jocross.js 是微信小游戏上的一个交叉营销组件，接入后，将可展示相关游戏（其他游戏能展示自己游戏的链接）
+jocross.js 是微信小游戏上的一个交叉营销组件，找作者收录小游戏后，接入代码即可展示相关游戏入口（其他游戏能展示自己游戏入口）
 ![jocross.js sample](https://github.com/minijoe/jocross/blob/master/sample.jpg)
 
 
 
 ### 功能
 
-* 跨引擎,简单易用
+* 不受引擎限制,不需在渲染循环中调用,简单易用
 * 利用wx.createUserInfoButton实现所有元素展示
-* 提供现成远端接口和收录平台
+* 提供现成远端接口和临时收录方式
 
 
 
