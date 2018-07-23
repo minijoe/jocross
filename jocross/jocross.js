@@ -1,4 +1,3 @@
-
 export default class jocross {
   constructor(op) {
     if(!op.appid){
