@@ -21,11 +21,11 @@ jocross.js 是微信小游戏上的一个交叉营销组件，找作者收录小
 * 小游戏简介，9字以内
 * 小游戏appid
 * 小游戏的小程序码或者带小程序的海报图片，用以没法直接跳转时展示
-#### 第2步，把jocross文件夹放在微信小游戏项目的根目录，在相关的js文件中页头引入jocross.js
+#### 第2步，检出本github，并把jocross文件夹放在微信小游戏项目的根目录，在相关的js文件中页头引入jocross.js
 ```javascript
 import jocross from "jocross/jocross.js"
 ```
-#### 第3步，在需要展示的位置初始化
+#### 第3步，在需要展示的位置初始化代码
 ```javascript
 var myCross = new jocross({
    appid: 'wxb7f5996370aff609',
