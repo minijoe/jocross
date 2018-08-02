@@ -268,6 +268,8 @@ export default class jocross {
 
   }
   show() {
+    if(this.isShow)
+    return
     if(!this.op.data)
     return
     var self = this
@@ -293,7 +295,7 @@ export default class jocross {
                   itemList: itemList,
                   success(e1) {
                     var index = e1.tapIndex
-                    
+                    if (wx.navigateToMiniProgram)
                     wx.navigateToMiniProgram({
                       appId: e.data[index].appid,
                       fail(e2) {
